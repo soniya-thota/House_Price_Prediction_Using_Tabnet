@@ -1,8 +1,8 @@
 # CSE676 Group 21: House Price Prediction with Deep Learning for Tabular Data
 
-This repository contains our CSE676 course project on predicting house prices using deep learning models for tabular regression. We evaluate multiple architectures (FNN/DNN, Wide & Deep, TabNet) and compare optimizers (SGD, Adam, AdamW, Ranger, Lion). Our best configuration is **TabNet + Lion**, achieving strong RMSE and R² on the test set, while also providing feature interpretability through attentive masks.
+This repository contains our CSE676 course project on predicting house prices using deep learning models for tabular regression. We evaluate multiple architectures FNN/DNN, Wide & Deep, TabNet and compare optimizers SGD, Adam, AdamW, Ranger, Lion. Our best configuration is **TabNet + Lion**, achieving strong RMSE and R² on the test set, while also providing feature interpretability through attentive masks.
 
-## Motivation (Movie Context)
+## Motivation 
 Our project is inspired by a movie scenario where two sisters inherit property in Mallorca but are deceived into selling below market value. This highlights how traditional valuation can be vulnerable under information asymmetry. We aim to improve transparency in pricing by learning data-driven estimates of fair value using deep learning.
 
 ## Dataset
@@ -32,7 +32,7 @@ We compare:
 - Adam
 - AdamW
 - Ranger
-- Lion (best-performing optimizer in our experiments)
+- Lion  (best performing optimizer in our experiments)
 
 ## Evaluation Metrics
 We report:
@@ -40,10 +40,10 @@ We report:
 - RMSE
 - R²
 
-## Results (Summary)
+## Results 
 Best per architecture (test set):
 - FNN: Lion
 - DNN: AdamW
 - Wide & Deep: Lion
-- **TabNet: Lion (best overall)**
+- **TabNet: Lion (best)**
 
